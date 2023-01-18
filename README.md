@@ -1,2 +1,2 @@
 # functional-programming
-Learning Fnctional Programming
+Learning Functional Programming
