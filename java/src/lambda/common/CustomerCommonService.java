@@ -1,4 +1,4 @@
-package common;
+package lambda.common;
 
 import java.util.ArrayList;
 import java.util.List;

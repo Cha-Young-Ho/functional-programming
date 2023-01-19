@@ -1,13 +1,11 @@
-package version2;
+package lambda.version2;
 
-import common.Customer;
-import common.CustomerCommonService;
-import common.Gender;
-import version1.CustomerServiceV1;
+import lambda.common.Customer;
+import lambda.common.Gender;
 
 import java.util.List;
 
-import static common.Helper.initData;
+import static lambda.common.Helper.initData;
 
 public class AppVersion2 {
     public static void main(String[] args) {

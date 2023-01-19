@@ -1,4 +1,4 @@
-package common;
+package lambda.common;
 
 public class Customer {
     private String id;

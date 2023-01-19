@@ -1,8 +1,8 @@
-package version1;
+package lambda.version1;
 
-import common.Customer;
-import common.CustomerCommonService;
-import common.Gender;
+import lambda.common.Customer;
+import lambda.common.CustomerCommonService;
+import lambda.common.Gender;
 
 import java.util.ArrayList;
 import java.util.List;

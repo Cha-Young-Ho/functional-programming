@@ -1,6 +1,4 @@
-package common;
-
-import version1.CustomerServiceV1;
+package lambda.common;
 
 public class Helper {
 

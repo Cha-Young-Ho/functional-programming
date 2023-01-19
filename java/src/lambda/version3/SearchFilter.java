@@ -1,6 +1,6 @@
-package version3;
+package lambda.version3;
 
-import common.Customer;
+import lambda.common.Customer;
 
 public interface SearchFilter {
 

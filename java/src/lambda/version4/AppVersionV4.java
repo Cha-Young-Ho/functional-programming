@@ -1,13 +1,13 @@
-package version4;
+package lambda.version4;
 
-import common.Customer;
-import common.Gender;
-import version3.CustomerServiceV3;
-import version3.SearchFilter;
+import lambda.common.Customer;
+import lambda.common.Gender;
+import lambda.version3.CustomerServiceV3;
 
 import java.util.List;
+import java.util.function.Predicate;
 
-import static common.Helper.initData;
+import static lambda.common.Helper.initData;
 
 public class AppVersionV4 {
 
