@@ -1,6 +1,6 @@
-package lambda.localvariable;
+package lambda.capturinglambda;
 
-public class LocalVariable {
+public class CapturingLambda {
     public static void main(String[] args) {
         /**
          * 지역 변수를 변경하는 경우
