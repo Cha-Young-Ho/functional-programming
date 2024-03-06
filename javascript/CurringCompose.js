@@ -16,16 +16,26 @@ const compose3 = fx => gx => (...dx) => temp => {
 };
 
 const add = function (a) {
+    return a + 4;
+}
+const add2 = function (a) {
+    return a + 3;
+}
+const add3 = function (a) {
+    return a + 2;
+}
+const add4 = function (a) {
     return a + 1;
 }
 
 const firstFunction = compose3(add);
-const secondFunction = firstFunction(add);
-const thirdFunction = secondFunction(add, add);
+const secondFunction = firstFunction(add2);
+const thirdFunction = secondFunction(add3, add4);
 const fourthFunction = thirdFunction(1);
 
 console.log("fistFunction : ", firstFunction);
 console.log("secondFunction : ", secondFunction);
 console.log("thirdFunction : ", thirdFunction);
 console.log("fourthFunction : ", fourthFunction);
+
 
